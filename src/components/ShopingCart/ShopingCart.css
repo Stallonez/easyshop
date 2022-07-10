@@ -1,0 +1,28 @@
+.cart-block {
+    display: flex;
+
+
+}
+
+.cart-block__item-1 {}
+
+.cart-block__item-2 {
+
+    font-weight: bold;
+    margin: 20px;
+
+}
+
+.cart-block__item-6 {
+
+    font-weight: bold;
+
+    margin: 10px 10px;
+
+    /* align-items: center; */
+}
+
+.cart-block__img {
+    max-width: 150px;
+    object-fit: fill;
+}

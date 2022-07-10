@@ -1,0 +1,6 @@
+.row-cards {
+    display: flex;
+    margin: 20px;
+    padding: 10px;
+    justify-content: space-around;
+}

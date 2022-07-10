@@ -1,0 +1,77 @@
+.mainCard {
+    /* height: 300px; */
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 0px rgb(149 137 137);
+    background: -webkit-linear-gradient(135deg, rgb(152, 207, 195), rgb(165, 165, 165), rgb(237, 242, 208) 53%);
+    background: -moz-linear-gradient(135deg, rgb(152, 207, 195), rgb(165, 165, 165), rgb(237, 242, 208) 53%);
+    background: linear-gradient(135deg, rgb(152, 207, 195), rgb(165, 165, 165), rgb(237, 242, 208) 53%);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    cursor: pointer;
+    transition-duration: .5s;
+}
+
+.mainCard:hover {
+    box-shadow: 5px 5px 5px 5px rgb(149, 137, 137);
+    transition-duration: .5s;
+}
+
+.creditInfo_flex_container {
+    display: flex;
+    margin-bottom: 8px;
+}
+
+.year {
+    padding: 5px;
+    background: rgb(245, 55, 3);
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    margin-right: 10px;
+}
+
+.percent {
+    padding: 5px;
+    background: rgb(161, 166, 3);
+    color: white;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.imgCard {
+    width: 100%;
+}
+
+.productInfo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000;
+}
+
+
+.priceInfo__currentPrice {
+    font-size: 50px;
+    color: red;
+    font-weight: 800;
+}
+
+.priceInfo__discountPrice {
+    text-decoration: line-through;
+}
+
+.item__buy {
+    position: absolute;
+    right: 0px;
+    bottom: -12px;
+    border: 1px solid white;
+}
